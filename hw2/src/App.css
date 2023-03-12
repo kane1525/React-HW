@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0px 0px 38px 9px rgba(0, 0, 0, 0.1);
+}
+
+.time {
+  margin-bottom: 15px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+  margin-bottom: 15px;
+}
+
+.button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+.start {
+  background-color: rgb(59, 201, 59);
+}
+
+.continue {
+  background-color: #de35f5;
+}
+
+.stop {
+  background-color: #f53535;
+}
+
+.reset {
+  background-color: #f5a835;
+}
+
+ul {
+  list-style-type: none;
+}
